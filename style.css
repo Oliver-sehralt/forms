@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gold;
+    text-align: center;
+}
+
+button {
+    background-color: lightblue;
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 30px;
+}
+
+form {
+    display: block;
+}
+
+input {
+border-radius: 1em;
+border: solid 1px;
+margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      display: flex;
+    }
+  }
